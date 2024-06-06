@@ -41,7 +41,7 @@ foreach ($cart_items as $item) {
             <ul>
                 <li><a href="index.php">Home</a></li>
                 <li><a href="menu.php">Menu</a></li>
-                <li><a href="aboutus.php">About Us</a></li>
+                <li><a href="about.php">About Us</a></li>
                 <li><a href="contact.php">Contact</a></li>
                 <li><a href="cart.php">Cart</a></li>
             </ul>
@@ -55,10 +55,10 @@ foreach ($cart_items as $item) {
             <?php else: ?>
                 <ul>
                     <?php foreach ($cart_items as $item): ?>
-                        <li><?php echo $item["name"]; ?> - $<?php echo $item["price"]; ?></li>
+                        <li><?php echo $item["name"]; ?> - RM<?php echo $item["price"]; ?></li>
                     <?php endforeach; ?>
                 </ul>
-                <p>Total Price: $<?php echo $total_price; ?></p>
+                <p>Total Price: RM<?php echo $total_price; ?></p>
                 <form action="checkout.php" method="POST">
                     <button type="submit">Proceed to Checkout</button>
                 </form>
