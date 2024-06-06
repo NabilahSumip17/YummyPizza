@@ -32,7 +32,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <ul>
                 <li><a href="index.php">Home</a></li>
                 <li><a href="menu.php">Menu</a></li>
-                <li><a href="aboutus.php">About Us</a></li>
+                <li><a href="about.php">About Us</a></li>
                 <li><a href="contact.php">Contact</a></li>
                 <li><a href="cart.php">Cart</a></li>
             </ul>
@@ -44,10 +44,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <?php if (!empty($cart_items)): ?>
                 <ul>
                     <?php foreach ($cart_items as $item): ?>
-                        <li><?php echo $item["name"]; ?> - $<?php echo $item["price"]; ?></li>
+                        <li><?php echo $item["name"]; ?> - RM<?php echo $item["price"]; ?></li>
                     <?php endforeach; ?>
                 </ul>
-                <p>Total Price: $<?php echo $total_price; ?></p>
+                <p>Total Price: RM<?php echo $total_price; ?></p>
                 <?php if (isset($payment_successful) && $payment_successful): ?>
                     <p>Thank you for your purchase! Your order has been placed successfully.</p>
                 <?php else: ?>
