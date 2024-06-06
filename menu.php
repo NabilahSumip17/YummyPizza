@@ -25,7 +25,7 @@
             <div class="menu-item">
                 <img src="images/pizza1.jpg" alt="Pepperoni Pizza">
                 <h3>Pepperoni Pizza</h3>
-                <p>$10</p>
+                <p>RM15</p>
                 <form action="cart.php" method="POST">
                     <input type="hidden" name="item_name" value="Pepperoni Pizza">
                     <input type="hidden" name="item_price" value="10">
@@ -35,7 +35,7 @@
             <div class="menu-item">
                 <img src="images/pizza2.jpg" alt="Margherita Pizza">
                 <h3>Margherita Pizza</h3>
-                <p>$8</p>
+                <p>RM10</p>
                 <form action="cart.php" method="POST">
                     <input type="hidden" name="item_name" value="Margherita Pizza">
                     <input type="hidden" name="item_price" value="8">
