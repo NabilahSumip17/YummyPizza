@@ -24,12 +24,12 @@
             <div class="menu-item">
                 <img src="images/pizza1.jpg" alt="Pepperoni Pizza">
                 <h3>Pepperoni Pizza</h3>
-                <p>$10</p>
+                <p>RM15</p>
             </div>
             <div class="menu-item">
                 <img src="images/pizza2.jpg" alt="Margherita Pizza">
                 <h3>Margherita Pizza</h3>
-                <p>$8</p>
+                <p>RM10</p>
             </div>
             <!-- Add more menu items as needed -->
         </section>
@@ -40,7 +40,7 @@
         <section id="contact">
             <h2>Contact Us</h2>
             <p>Email: info@yummypizza.com</p>
-            <p>Phone: +1234567890</p>
+            <p>Phone: 06 976 4823</p>
         </section>
     </main>
     <footer>
