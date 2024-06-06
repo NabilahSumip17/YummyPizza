@@ -11,10 +11,11 @@
         <h1>Our Menu</h1>
         <nav>
             <ul>
-              <li><a href="index.php">Home</a></li>
+                <li><a href="index.php">Home</a></li>
                 <li><a href="menu.php">Menu</a></li>
-                <li><a href="aboutus.php">About Us</a></li>
-               <li><a href="contact.php">Contact</a></li>
+                <li><a href="about.php">About Us</a></li>
+                <li><a href="contact.php">Contact</a></li>
+                <li><a href="cart.php">Cart</a></li>
             </ul>
         </nav>
     </header>
@@ -25,11 +26,21 @@
                 <img src="images/pizza1.jpg" alt="Pepperoni Pizza">
                 <h3>Pepperoni Pizza</h3>
                 <p>$10</p>
+                <form action="cart.php" method="POST">
+                    <input type="hidden" name="item_name" value="Pepperoni Pizza">
+                    <input type="hidden" name="item_price" value="10">
+                    <button type="submit">Add to Cart</button>
+                </form>
             </div>
             <div class="menu-item">
                 <img src="images/pizza2.jpg" alt="Margherita Pizza">
                 <h3>Margherita Pizza</h3>
                 <p>$8</p>
+                <form action="cart.php" method="POST">
+                    <input type="hidden" name="item_name" value="Margherita Pizza">
+                    <input type="hidden" name="item_price" value="8">
+                    <button type="submit">Add to Cart</button>
+                </form>
             </div>
             <!-- Add more menu items as needed -->
         </section>
