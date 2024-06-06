@@ -35,7 +35,7 @@
             <div class="menu-item">
                 <img src="images/pizza2.jpg" alt="Margherita Pizza">
                 <h3>Margherita Pizza</h3>
-                <p>RM10</p>
+                <p>RM8</p>
                 <form action="cart.php" method="POST">
                     <input type="hidden" name="item_name" value="Margherita Pizza">
                     <input type="hidden" name="item_price" value="8">
