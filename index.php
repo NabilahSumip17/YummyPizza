@@ -29,7 +29,7 @@
             <div class="menu-item">
                 <img src="images/pizza2.jpg" alt="Margherita Pizza">
                 <h3>Margherita Pizza</h3>
-                <p>RM10</p>
+                <p>RM8</p>
             </div>
             <!-- Add more menu items as needed -->
         </section>
