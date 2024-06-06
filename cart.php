@@ -55,7 +55,7 @@ foreach ($cart_items as $item) {
             <?php else: ?>
                 <ul>
                     <?php foreach ($cart_items as $item): ?>
-                        <li><?php echo $item["name"]; ?> - RM<?php echo $item["price"]; ?></li>
+                        <li><?php echo htmlspecialchars($item["name"]); ?> - RM<?php echo htmlspecialchars($item["price"]); ?></li>
                     <?php endforeach; ?>
                 </ul>
                 <p>Total Price: RM<?php echo $total_price; ?></p>
