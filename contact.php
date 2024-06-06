@@ -22,7 +22,7 @@
         <section id="contact">
             <h2>Contact Information</h2>
             <p>Email: info@yummypizza.com</p>
-            <p>Phone: +1234567890</p>
+            <p>Phone: 06 976 4823</p>
             <p>Address: 123 Pizza Street, Pizza City</p>
         </section>
         <section id="contact-form">
