@@ -11,9 +11,9 @@
         <h1>Welcome to Yummy Pizza</h1>
         <nav>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Menu</a></li>
-                <li><a href="#">About Us</a></li>
+                <li><a href="home.php">Home</a></li>
+                <li><a href="menu.php">Menu</a></li>
+                <li><a href="aboutus">About Us</a></li>
                <li><a href="contact.php">Contact</a></li>
             </ul>
         </nav>
